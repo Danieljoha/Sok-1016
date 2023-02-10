@@ -4,8 +4,6 @@ format: html
 editor: visual
 ---
 
- 
-
 Mappeoppgave 1: Nasjonalproduktet
 
 NB! Besvarelser som ikke oppfyller disse kravene vil ikke
@@ -84,7 +82,62 @@ library(httr)
 ```{r}
 url <- "https://data.ssb.no/api/v0/no/table/09171/"
 
+
+
 query <- '{
+  "query": [
+    {
+      "code": "NACE",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "nr23_6",
+          "pub2X01_02",
+          "pub2X03",
+          "pub2X05",
+          "nr2X06_09",
+          "nr23ind",
+          "pub2X35",
+          "pub2X41_43",
+          "pub2X64_66",
+          "pub2X68B",
+          "nr23_6fn",
+          "nr23mark",
+          "nrimark"
+        ]
+      }
+    },
+    {
+      "code": "ContentsCode",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "Prob",
+          "Pin",
+          "BNPB",
+          "Prob2",
+          "PIN2",
+          "BNPB2",
+          "BNPB2ses"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}'
+
+
+
+
+
+
+
+
+
+
+query1 <- '{
   "query": [
     {
       "code": "NACE",
