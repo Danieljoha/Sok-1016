@@ -1,0 +1,72 @@
+---
+title: "Makro_Mappe_1"
+format: html
+editor: visual
+---
+
+ 
+
+Mappeoppgave 1: Nasjonalproduktet
+
+NB! Besvarelser som ikke oppfyller disse kravene vil ikke
+bli vurdert.
+
+I denne mappeoppgaven skal dere levere en deskriptiv analyse
+av nasjonalregnskapet. Formålet er å teste deres evne til å anvende makroøkonomisk teori til å
+
+• lage informative representasjoner av
+nasjonalregnskapstall, med meningsfulle enheter og relevante transformasjoner, og å
+
+• diskutere utfordringer og begrensninger ved definisjoner.
+
+Oppgaven har tre minstekrav:
+
+• Dataene hentes fra SSB Tabell 09171: Produksjon og
+inntekt, etter næring. Ujustert og sesongjustert, 1978K1 - 2022K3 via SSB sin API-løsning.
+
+• Besvarelsen skal ikke overstige 750 ord.
+
+• Kildehenvisninger på informasjon utenom pensum inkluderes.
+
+En god besvarelse har tydelige figurer som gir leseren
+oversikt over egenskapene til de etter-spurte makroøkonomiske størrelsene, samt konkrete og
+komplette beskrivelser og tolkninger av figurene.
+
+Oppgaven vil telle 25% av sluttkarakteren. Merk videre at
+prosjektoppgaven består av fire oppgaver. Vekttallene er oppgitt i prosent.
+
+Merknad. Sammenlignet med SOK-1004 er oppgavene i SOK-1016
+med vilje gjort mer åpne og med mindre drahjelp.
+
+Oppgave 1 - 40%
+
+Lag to til fire figurer som sammenligninger sysselsetting,
+produksjon, bruttoprodukt, og bruttoprodukt per sysselsatt på tvers av næringer i 2022.
+Sysselsetting oppgis i antall årsverk, produksjon, bruttoprodukt, og bruttoprodukt per sysselsatt i
+løpende priser. Dere må selv avgjøre hvilke tall som er meningsfylte å sammenligne og
+hvorvidt dere ønsker å dele opp tallene i ulike figurer.
+
+Hint 1. Dere kan ta inspirasjon fra Figur 2.2 i pensum, men
+ikke begrens dere til den.
+
+Hint 2. Tallene i datasettet er kvartalsvise, ikke årlige,
+hvilket innebærer at dere må gjøre en transformasjon.
+
+Oppgave 2 - 10%
+
+Diskuter hvorvidt bruttoprodukt per sysselsatt er et godt
+mål på produktivitet i offentlig sektor.
+
+Oppgave 3 - 40%
+
+Lag figurer som viser bruttoprodukt per næring i både faste
+og løpende priser mellom 2012 og 2022. Diskuter hvorvidt det er noen næringer hvor variasjon
+i produktprisene har særlig stor innvirkning på verdien av bruttoproduksjonen.
+
+Oppgave 4 - 10%
+
+I norsk sammenheng skiller vi ofte mellom brutto nasjonal
+produkt (BNP) og brutto nasjonal-produkt på fastlandet (FN-BNP). Hvilke næringer er unntatt
+fra FN-BNP, og hvorfor gjøres dette? Knytt gjerne besvarelsen til funnene fra oppgave 3.
+
+ 
